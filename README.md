@@ -1,47 +1,46 @@
-<img src="screencap.png" align="right" width="250">
+# Getting Started with Create React App
 
-# [play floppy bird](https://nebez.github.io/floppybird/)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-If you missed the Flappy Bird hype, here's your chance to try the best vintage knockoff.
+## Available Scripts
 
-**Features**
+In the project directory, you can run:
 
-* 🎉 good ol' div's for all the objects and graphics,
-* 🖥 scales perfectly on almost any screen, both mobile and desktop,
-* 💩 unoptimized, laggy, and not nearly as fast as a canvas implementation,
-* 👷‍♂️ unfinished typescript version (see `/ts` folder),
+### `npm start`
 
-Enjoy.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-https://nebez.github.io/floppybird/ (or play [**easy mode**](https://nebez.github.io/floppybird/?easy))
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-### Clones
+### `npm test`
 
-* https://wanderingstan.github.io/handybird/
-    * **[@wanderinstan](https://github.com/wanderingstan)** enables hand gestures to play using doppler effect and a microphone
-* http://www.hhcc.com/404
-    * **[Hill Holiday](http://www.hhcc.com/)** using it for their 404
-* http://heart-work.se/duvchi
-    * promotional campaign for an album release
-* https://www.progressivewebflap.com/
-    * **[@jsonthor](https://twitter.com/jsonthor)** lets you take floppy bird with you as a progressive web app
-* https://github.com/rukmal/FlappyLeapBird
-    * **[Rukmal](http://rukmal.me/)** integrates the LeapMotion Controller
-* http://chrisbeaumont.github.io/floppybird/
-    * **[@chrisbeaumont](https://github.com/chrisbeaumont)** puts the bird on auto-pilot
-* http://www.lobe.io/flappy-math-saga/
-    * **[@tikwid](https://github.com/tikwid)** teaches you math
-* http://dota2.cyborgmatt.com/flappydota/
-    * flappy dota
-* http://labs.aylien.com/flappy-bird/
-    * **[@mdibaiee/flappy-es](https://github.com/mdibaiee/flappy-es)** brings skynet to floppy bird
-* https://emu.edu/gaming-hub/flappy-huxman-game/
-    * university celebrates 100 years by putting President Susan Huxman on a floppy bird body
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Notice
+### `npm run build`
 
-The assets powering the visual element of the game have all been extracted directly from the Flappy Bird android game. I do not own the assets, nor do I have explicit permission to use them from their creator. They are the work and copyright of original creator Dong Nguyen and .GEARS games (http://www.dotgears.com/).
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-I took this Tweet (https://twitter.com/dongatory/status/431060041009856512 / http://i.imgur.com/AcyWyqf.png) by Dong Nguyen, the creator of the game, as an open invitation to reuse the game concept and assets in an open source project. There is no intention to steal the game, monetize it, or claim it as my own.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-If the copyright holder would like for the assets to be removed, please open an issue to start the conversation.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
